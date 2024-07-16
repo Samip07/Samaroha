@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Libre+Franklin&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --black-primary: #0B0B0D;
+    --black-secondary: #181619;
+    --black-third: #181B22;
+    --black-fourth: #272A31;
+    --golden-primary: #a56b0e;
+    --golden-secondary: #DDA74F;
+    --white-primary: #bebebe;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    z-index: 3;
+    /* position: absolute; */
+    position: fixed;
+    align-items: center;
+    width: 100vw;
+    background: var(--black-third);
+    height: 3rem;
+    /* font-family: "Noto Sans", sans-serif; */
+}
+
+.burgerIcon {
+    display: inline-block;
+    margin: 0 0.6rem;
+    cursor: pointer;
+}
+
+.bar {
+    height: 3px;
+    width: 28px;
+    margin: 2.8px 5px;
+    background: var(--white-primary);
+    border-radius: 7px;
+}
+
+.change .bar1 {
+    transform: translate(0, 6.2px) rotate(45deg);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: translate(0, -6.2px) rotate(-45deg);
+}
+
+.burgerMenu {
+    /* display: block; */
+    display: none;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.2);
+    /* background-color: rgb(246, 246, 246); */
+    top: 3rem;
+    height: 100vh;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 5px;
+    width: calc(max-content + 30px);
+    padding: 14px;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+h2 {
+    margin: 0;
+}
+
+.btn {
+    display: block;
+    height: 40px;
+    width: 220px;
+    border-radius: 7px;
+    border: none;
+    font-size: 1.4rem;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.black {
+    background-color: rgb(47, 51, 56);
+    color: white;
+}
+
+.white {
+    background-color: white;
+    color: black;
+}
+
+.menuItem {
+    list-style: none;
+    margin-top: 1.5rem;
+}
+
+.item {
+    list-style-type: none;
+    margin: 1.2rem 0;
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.burgerMenuFooter {
+    position: absolute;
+    bottom: 15vh;
+}
+
+.socialHandles {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.handles {
+    margin-right: 14px;
+}
+
+.handles a img {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.nav_menu h2 {
+    color: var(--golden-primary);
+    font-size: 2rem;
+
+}
+
+.nav_menu {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav_menu_items {
+    position: absolute;
+    right: 15rem;
+}
+
+.nav_menu_items ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 40rem;
+}
+
+/* .nav_menu_items ul:hover .nav_menu_items ul li {
+    color: #CCC;
+}
+
+.nav_menu_items ul:hover .nav_menu_items ul li:hover {
+    color: #000;
+    box-shadow: 0 2px 0 0 currentcolor;
+}
+ */
+.nav_menu_items ul li {
+    color: var(--white-primary);
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: 0.25s ease;
+}
+
+.nav_menu_items ul li:hover {
+    color: white;
+    box-shadow: 0 2px 0 0 currentcolor;
+    cursor: pointer;
+}
+
+.login_signup {
+    position: absolute;
+    right: 3rem;
+    display: flex;
+}
+
+.login_signup button {
+    width: 7rem;
+    height: 2.2rem;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    color: #030303;
+    font-size: 1rem;
+    font-weight: 400;
+    background: var(--white-primary);
+    cursor: pointer;
+    margin: 0 0.4rem;
+}
+
+.login_signup button:hover {
+    background: #f3f3f3;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav_menu {
+        display: none;
+    }
+}

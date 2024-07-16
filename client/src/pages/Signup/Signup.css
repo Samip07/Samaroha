@@ -1,0 +1,130 @@
+:root {
+    --black-primary: #0B0B0D;
+    --black-secondary: #181619;
+    --black-third: #181B22;
+    --black-fourth: #333741;
+    --golden-primary: #a56b0e;
+    --golden-secondary: #d29e4b;
+    --white-primary: #bebebe;
+}
+
+.form {
+    height: auto;
+    width: 35rem;
+    background-color: var(--black-fourth);
+    margin: 0.5rem auto 0px auto;
+    border-radius: 14px;
+    border-top: var(--golden-primary) 6px solid;
+    padding: 0.5rem 1rem 4rem 2rem;
+    scale: 0.9;
+}
+
+.form:hover {
+    box-shadow: 0px 20px 40px var(--black-primary);
+}
+
+.form h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--golden-primary);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.form h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--white-primary);
+}
+
+.form label {
+
+    font-size: 1.5rem;
+    margin-left: 4rem;
+    color: var(--white-primary);
+
+}
+
+.form input {
+    margin-left: 4rem;
+    margin-top: 0.2rem;
+    margin-bottom: 2rem;
+    width: 24rem;
+    height: 2.3rem;
+    background-color: #efeef2;
+    border: 0.1rem solid #dddddd;
+    border-radius: 0.4rem;
+    outline: none;
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+
+.form .btn {
+    width: 24rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    border-radius: 0.4rem;
+    background-color: var(--golden-primary);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.form .btn:hover {
+    background-color: var(--golden-secondary);
+    /* border: 0.1rem solid var(--white-primary); */
+    color: white;
+}
+
+.form .btn:active {
+    background-color: var(--white-primary);
+    border: 0.1rem solid var(--white-primary);
+    color: white;
+}
+
+.form p {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+.log {
+    font-size: 1.3rem;
+    color: var(--golden-secondary);
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+
+/* Alert */
+.alert {
+    padding: 0.375rem 0.75rem;
+    width: fit-content;
+    border-color: transparent;
+    border-radius: 7px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 10px auto;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.alert-danger {
+    color: #842029;
+    background: #f8d7da;
+}
+
+.alert-success {
+    color: #0f5132;
+    background: #d1e7dd;
+}

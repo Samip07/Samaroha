@@ -1,0 +1,42 @@
+/* Error Page */
+.error-page {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.error-page img {
+    max-width: 600px;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+
+
+.error-page h3 {
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+}
+
+.error-page p {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #004261;
+}
+
+.error-page a {
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    color: #006c9d;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.error-page a:hover {
+    color: #004261;
+}
