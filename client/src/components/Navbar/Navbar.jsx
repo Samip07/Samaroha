@@ -30,12 +30,12 @@ const Navbar = () => {
         <div className="bar3 bar"></div>
       </div>
       <div className="burgerMenu">
-        <NavLink to="/login" style={{ textDecoration: "none" }}>
+        <NavLink to="/register" style={{ textDecoration: "none" }}>
           <button className="btn black">Log in</button>
         </NavLink>
-        <NavLink to="/signup" style={{ textDecoration: "none" }}>
+        {/* <NavLink to="/register" style={{ textDecoration: "none" }}>
           <button className="btn white">Sign up</button>
-        </NavLink>
+        </NavLink> */}
         <ul className="menuItem">
           <NavLink to="/business" style={{ textDecoration: "none" }}>
             <li className="item">Create a business account</li>
@@ -54,22 +54,22 @@ const Navbar = () => {
           <li className="item">Follow Us:</li>
           <ul className="socialHandles">
             <li className="handles">
-              <a href="https://www.facebook.com/" target="_blank">
+              <a href="https://www.facebook.com/">
                 <img src={facebook} alt="Social Media Handle" />
               </a>
             </li>
             <li className="handles">
-              <a href="https://www.instagram.com/" target="_blank">
+              <a href="https://www.instagram.com/">
                 <img src={instagram} alt="Social Media Handle" />
               </a>
             </li>
             <li className="handles">
-              <a href="https://twitter.com/" target="_blank">
+              <a href="https://twitter.com/">
                 <img src={twitter} alt="Social Media Handle" />
               </a>
             </li>
             <li className="handles">
-              <a href="https://www.youtube.com/ " target="_blank">
+              <a href="https://www.youtube.com/ ">
                 <img src={youtube} alt="Social Media Handle" />
               </a>
             </li>

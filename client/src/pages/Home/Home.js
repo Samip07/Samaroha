@@ -1,11 +1,12 @@
 import React from "react";
-import { Navbar, Home, Restaurant, Footer } from "../../components";
+import { Navbar, Home, Main, Footer } from "../../components";
+
 const Shop = () => {
   return (
     <>
       <Navbar />
       <Home />
-      <Restaurant />
+      <Main />
       <Footer />
     </>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import mainVideo from "../../assets/Video.mov";
+
 const Home = () => {
   return (
     <>
@@ -10,6 +11,7 @@ const Home = () => {
           <a>With Us</a>
         </div>
         <video
+          preload="none"
           autoPlay
           loop
           muted

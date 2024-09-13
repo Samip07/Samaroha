@@ -1,0 +1,21 @@
+.alert {
+    padding: 0.375rem 0.75rem;
+    width: fit-content;
+    border-color: transparent;
+    border-radius: 7px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 10px auto;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.alert-danger {
+    color: #842029;
+    background: #f8d7da;
+}
+
+.alert-success {
+    color: #0f5132;
+    background: #d1e7dd;
+}
