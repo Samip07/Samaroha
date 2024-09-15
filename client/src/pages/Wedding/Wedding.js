@@ -2,7 +2,15 @@ import React from "react";
 import { Navbar, Footer } from "../../components";
 import dest from "../../assets/dest.jpg";
 import wedding from "../../assets/wedding.jpg";
-
+import wed1 from "../../assets/wed1.png";
+import wed2 from "../../assets/wed2.jpg";
+import wed3 from "../../assets/wed3.jpg";
+import wed4 from "../../assets/wed4.jpg";
+import offerimg from "../../assets/offerimg.jpg";
+import venue1 from "../../assets/venue1.jpg";
+import venue2 from "../../assets/venue2.jpg";
+import venue3 from "../../assets/venue3.jpg";
+import venue4 from "../../assets/venue4.jpg";
 import './Wedding.css'
 const Wedding = () => {
   return (
@@ -23,6 +31,44 @@ const Wedding = () => {
 
 
           </p>
+        </div>
+
+        <h1 className="head1" >Some Wedding photographs</h1>
+        <div className="content4">
+        
+          
+          <img src={wed1} alt="" />
+          <img src={wed2} alt="" />
+          <img src={wed3} alt="" />
+          <img src={wed4} alt="" />
+
+
+        </div>
+        <div className="content5">
+          <h1>What we Offer</h1>
+        </div>
+        <div className="content6">
+          <img src={offerimg} alt="" />
+          <p>
+          For a limited time, we’re offering 15% off on all full-service wedding packages! Let us bring your vision to life with our expert planning, stunning décor, and top-tier vendors. Our package includes:<br/><br/>
+
+Free consultation with a dedicated wedding planner<br/>
+Complimentary tasting session for the couple<br/>
+Customizable décor and floral arrangements<br/>
+Exclusive discounts with partner venues and vendors<br/>
+Plus, book within the next 30 days and receive a complimentary photography session for your engagement shoot!<br/><br/>
+
+Contact us today to schedule your consultation and start planning the wedding of your dreams!
+
+
+          </p>
+        </div>
+        <h1 className="head1" >Some Beautiful Wedding Venue</h1>
+        <div className="content7">
+        <img src={venue1} alt="" />
+          <img src={venue2} alt="" />
+          <img src={venue3} alt="" />
+          <img src={venue4} alt="" />
         </div>
       </div>
       
