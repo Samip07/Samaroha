@@ -1,27 +1,27 @@
 body{
     overflow-x:hidden ;
 }
-.content1 img{
+.content_meet1 img{
 margin-top: 3rem;
 width: 89rem;
 height: 35rem;
 }
-.content2 h1{
+.content_meet2 h1{
     text-align: center;
     margin-top: 0.5rem;
 }
-.content3{
+.content_meet3{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
 }
-.content3 img{
+.content_meet3 img{
 width:32rem;
 height: 22rem;
 margin-top: 2rem;
 margin-left: 3rem;
 }
-.content3 p{
+.content_meet3 p{
     margin-top: 3rem;
     margin-right: 10rem;
     
@@ -30,7 +30,7 @@ margin-left: 3rem;
     margin-top: 2rem;
     margin: 3rem;
 }
-.content4{
+.content_meet4{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
@@ -38,34 +38,34 @@ margin-left: 3rem;
     margin-left: 3rem;
     margin-top: 1rem;
 }
-.content4 img{
+.content_meet4 img{
 width: 20rem;
 height: 14rem;
 
 
 }
-.content5 h1{
+.content_meet5 h1{
 
     text-align: center;
     margin-top: 1rem;
 }
-.content6{
+.content_meet6{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
 }
-.content6 img{
+.content_meet6 img{
 width:32rem;
 height: 22rem;
 margin-top: 2rem;
 margin-left: 3rem;
 }
-.content6 p{
+.content_meet6 p{
     margin-top: 3rem;
     margin-right: 10rem;
     
 }
-.content7{
+.content_meet7{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
@@ -73,7 +73,7 @@ margin-left: 3rem;
     margin-left: 3rem;
     margin-top: 1rem;
 }
-.content7 img{
+.content_meet7 img{
 width: 20rem;
 height: 14rem;
 
