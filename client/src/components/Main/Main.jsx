@@ -173,18 +173,16 @@ const Main = () => {
             <div className="features__feature">
               <h5 className="features__header">Weddings</h5>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                alias sint quos? Accusantium a fugiat porro reiciendis saepe
-                quibusdam debitis ducimus.
+              At Samaroha, we believe that your wedding day should be nothing short of magical. Our experienced event planning team is dedicated to making your dream wedding a reality, handling every detail from venue selection and décor to entertainment, catering, and logistics. Whether you envision an intimate ceremony or a grand celebration, we work closely with you to ensure every aspect of your special day reflects your unique love story. With our expert coordination and personalized approach, you can relax and enjoy every moment, knowing that your wedding is in the best hands.
               </p>
             </div>
 
             <div className="features__feature">
               <h5 className="features__header">Meetings</h5>
               <p>
-                Nesciunt quos autem dolorum voluptates cum dolores dicta fuga
-                inventore ab? Nulla incidunt eius numquam sequi iste pariatur
-                quibusdam!
+              At Samaroha, we understand that a successful meeting requires careful planning, attention to detail, and flawless execution. Whether you’re organizing a corporate conference, a board meeting, or an intimate team gathering, our dedicated event management team ensures that every aspect of your meeting is meticulously arranged. From venue selection and audiovisual setup to catering and logistics, we provide personalized solutions tailored to your specific needs. With our expertise and commitment, your meeting will run seamlessly, allowing you to focus on what matters most—connecting, collaborating, and achieving your goals.
+
+
               </p>
             </div>
             <img
@@ -203,9 +201,7 @@ const Main = () => {
             <div className="features__feature">
               <h5 className="features__header">Birthday and Parties</h5>
               <p>
-                Quasi, fugit in cumque cupiditate reprehenderit debitis animi
-                enim eveniet consequatur odit quam quos possimus assumenda dicta
-                fuga inventore ab.
+              At Samaroha, we turn birthdays into unforgettable celebrations. Whether it’s an intimate gathering with close family or a large, extravagant party, our event management team is here to make your vision come to life. From creative themes and personalized decorations to entertainment, catering, and venue selection, we handle every detail to ensure a seamless and memorable experience. No matter the age or style of the party, we’ll craft a celebration that’s perfectly suited to your taste and leaves a lasting impression on you and your guests.
               </p>
             </div>
           </div>
