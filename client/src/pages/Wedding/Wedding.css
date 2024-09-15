@@ -1,0 +1,28 @@
+body{
+    overflow-x:hidden ;
+}
+.content1 img{
+margin-top: 3rem;
+width: 89rem;
+height: 30rem;
+}
+.content2 h1{
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.content3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+.content3 img{
+width:32rem;
+height: 22rem;
+margin-top: 2rem;
+margin-left: 3rem;
+}
+.content3 p{
+    margin-top: 3rem;
+    margin-right: 10rem;
+    
+}
