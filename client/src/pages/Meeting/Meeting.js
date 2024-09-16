@@ -63,7 +63,7 @@ Contact us today to schedule your consultation and make your next meeting a succ
 
           </p>
         </div>
-        <h1 className="head1" >Some Beautiful Wedding Venue</h1>
+        <h1 className="head1" >Some Meeting Venue</h1>
         <div className="content_meet7">
         <img src={mvenue1} alt="" />
           <img src={mvenue2} alt="" />

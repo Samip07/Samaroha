@@ -55,6 +55,7 @@ const Register = () => {
   }, [user, navigate]);
 
   return (
+    
     <div className="full-page wrapper" onSubmit={onSubmit}>
       <form className="form">
         <h1>Samaroha</h1>
