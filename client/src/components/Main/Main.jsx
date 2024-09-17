@@ -221,53 +221,44 @@ const Main = () => {
                 className="btn operations__tab operations__tab--1 operations__tab--active"
                 data-tab="1"
               >
-                <span>01</span>Instant Transfers
+                <span>01</span>Photography
               </button>
               <button
                 className="btn operations__tab operations__tab--2"
                 data-tab="2"
               >
-                <span>02</span>Instant Loans
+                <span>02</span>Videography
               </button>
               <button
                 className="btn operations__tab operations__tab--3"
                 data-tab="3"
               >
-                <span>03</span>Instant Closing
+                <span>03</span>Decorations
               </button>
             </div>
             <div className="operations__content operations__content--1 operations__content--active">
               <h5 className="operations__header">
-                Tranfser money to anyone, instantly! No fees, no BS.
+              Click and Capture memories for life.
               </h5>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+              Photography is the art of freezing a moment in time, capturing the beauty, emotion, and essence of life in a single frame.
               </p>
             </div>
 
             <div className="operations__content operations__content--2">
               <h5 className="operations__header">
-                Buy a home or make your dreams come true, with instant loans.
+              Turns moments into memories and memories into stories.
               </h5>
               <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.
+              Videography is the craft of weaving motion and emotion into a seamless story, bringing life to moments that words alone cannot capture.
               </p>
             </div>
             <div className="operations__content operations__content--3">
               <h5 className="operations__header">
-                No longer need your account? No problem! Close it instantly.
+              Decoration that feels like home.
               </h5>
               <p>
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum. Ut enim ad
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat.
+              Decoration is the art of turning spaces into stories, where every detail adds beauty, warmth, and personality to a place
               </p>
             </div>
           </div>
@@ -277,7 +268,7 @@ const Main = () => {
           <div className="section__title section__title--testimonials">
             <h2 className="section__description">Not sure yet?</h2>
             <h3 className="section__header">
-              Millions of Bankists are already making their lifes simpler.
+              Millions of People are already making their lifes simpler.
             </h3>
           </div>
 
@@ -285,16 +276,10 @@ const Main = () => {
             <div className="slide slide--1">
               <div className="testimonial">
                 <h5 className="testimonial__header">
-                  Best financial decision ever!
+                We had the BEST DAY EVER!
                 </h5>
                 <blockquote className="testimonial__text">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Accusantium quas quisquam non? Quas voluptate nulla minima
-                  deleniti optio ullam nesciunt, numquam corporis et asperiores
-                  laboriosam sunt, praesentium suscipit blanditiis.
-                  Necessitatibus id alias reiciendis, perferendis facere
-                  pariatur dolore veniam autem esse non voluptatem saepe
-                  provident nihil molestiae.
+                Thank you for taking part in our wedding day celebrations! We had the most marvelous best day ever! Thank you so much for your patience, creativity, vision and the cotton candy gift! It was such a pleasure to work with you – in fact, we’d do it all over again exactly the same way if we could. Truly, everything was perfect.
                 </blockquote>
                 <address className="testimonial__author">
                   <img src={user1} alt="" className="testimonial__photo" />
@@ -307,14 +292,10 @@ const Main = () => {
             <div className="slide slide--2">
               <div className="testimonial">
                 <h5 className="testimonial__header">
-                  The last step to becoming a complete minimalist
+                Words cannot thank you enough for all that you have done for us.
                 </h5>
                 <blockquote className="testimonial__text">
-                  Quisquam itaque deserunt ullam, quia ea repellendus provident,
-                  ducimus neque ipsam modi voluptatibus doloremque, corrupti
-                  laborum. Incidunt numquam perferendis veritatis neque
-                  repellendus. Lorem, ipsum dolor sit amet consectetur
-                  adipisicing elit. Illo deserunt exercitationem deleniti.
+                Words cannot thank you enough for all that you have done for us the 18 months leading up to our wedding. You were a joy to work with and made the whole planning experience a stress-free one. Our wedding day went off without a hiccup and we only have you to thank for that.
                 </blockquote>
                 <address className="testimonial__author">
                   <img src={user2} alt="" className="testimonial__photo" />
@@ -327,15 +308,10 @@ const Main = () => {
             <div className="slide slide--3">
               <div className="testimonial">
                 <h5 className="testimonial__header">
-                  Finally free from old-school banks
+                Thank you so much!
                 </h5>
                 <blockquote className="testimonial__text">
-                  Debitis, nihil sit minus suscipit magni aperiam vel tenetur
-                  incidunt commodi architecto numquam omnis nulla autem,
-                  necessitatibus blanditiis modi similique quidem. Odio aliquam
-                  culpa dicta beatae quod maiores ipsa minus consequatur error
-                  sunt, deleniti saepe aliquid quos inventore sequi.
-                  Necessitatibus id alias reiciendis, perferendis facere.
+                Thank you so much for all of your help, advice, guidance and support during our wedding planning process. You made all the overwhelming and daunting tasks manageable and made our special day one that we will both never forget. Your impeccable taste and attention to detail was amazing. Thank you for also putting up with my 5:00am emails and never ending questions!
                 </blockquote>
                 <address className="testimonial__author">
                   <img src={user3} alt="" className="testimonial__photo" />
